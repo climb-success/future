@@ -18,7 +18,7 @@ class StudentController extends Controller
         $rule = [
             'stu_name'      => 'required|string',
             'phone'         => 'required|string',
-            'qq'            => 'required|string',
+            'qq'            => 'string',
             'goal_school'   => 'required|string',
             'goal_profession' => 'required|string',
         ];
