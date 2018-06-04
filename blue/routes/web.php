@@ -14,4 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
 Route::get('/test','TestController@test');
+Route::post('/student-1v1','StudentController@stu1v1');
