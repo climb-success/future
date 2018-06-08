@@ -12,6 +12,6 @@ class StudentRequirementRepository
     }
 
     public function create($params){
-        $this->stuRequireModel->create($params);
+        return $this->stuRequireModel->create($params);
     }
 }

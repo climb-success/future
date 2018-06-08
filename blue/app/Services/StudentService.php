@@ -12,6 +12,8 @@ class StudentService
     }
 
     public function stu1v1($params){
-        $this->stuRequired->create($params);
+        return $this->stuRequired->create($params);
     }
+
+
 }
